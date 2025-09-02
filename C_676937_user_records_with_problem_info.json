@@ -1,0 +1,788 @@
+{
+  "U_11810580": [
+    {
+      "problem_id": "Pm_3059487",
+      "log_id": "11810580_3059487",
+      "is_correct": 1,
+      "submit_time": "2020-09-24 20:01:08",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "对于整数序列 8 5 2 4 3 按照视频中程序进行升序排序，一共比较了多少次？[填空1]",
+      "concepts": [
+        "排序过程",
+        "模板与群体数据"
+      ],
+      "cognitive_dimension": 3
+    },
+    {
+      "problem_id": "Pm_89841",
+      "log_id": "11810580_89841",
+      "is_correct": 1,
+      "submit_time": "2020-09-04 11:33:05",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 1.0,
+      "course_id": "C_676937",
+      "content": "C++类体系中，不能被派生类继承的有_________。",
+      "concepts": [
+        "派生类",
+        "析构函数",
+        "继承与派生"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89842",
+      "log_id": "11810580_89842",
+      "is_correct": 1,
+      "submit_time": "2020-09-05 13:48:42",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 1.0,
+      "course_id": "C_676937",
+      "content": "下列关于派生类的叙述中，错误的是",
+      "concepts": [
+        "派生类",
+        "继承与派生"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89843",
+      "log_id": "11810580_89843",
+      "is_correct": 0,
+      "submit_time": "2020-09-05 16:40:25",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 0.0,
+      "course_id": "C_676937",
+      "content": "classA{public:voidsetA(int);private:inta;};classB{public:voidsetB(int);private:intb;};classC:publicA,privateB{public:voidsetC(int,int,int);private:intc;};voidA::setA(intx){a=x;}voidB::setB(intx){b=x;}voidC::setC(intx,inty,intz){setA(x);setB(y);c=z;}intmain(intargc,constchar*argv[]){Cobj;obj.setA(5);//Aobj.setB(6);//Bobj.setC(6,7,9);//Creturn0;}main函数中哪条语句是错误的",
+      "concepts": [
+        "main函数",
+        "继承与派生"
+      ],
+      "cognitive_dimension": 4
+    },
+    {
+      "problem_id": "Pm_89844",
+      "log_id": "11810580_89844",
+      "is_correct": 1,
+      "submit_time": "2020-09-06 15:59:11",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 1.0,
+      "course_id": "C_676937",
+      "content": "下列关于类型转换正确的是",
+      "concepts": [
+        "派生类",
+        "基类对象",
+        "继承与派生"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89845",
+      "log_id": "11810580_89845",
+      "is_correct": 0,
+      "submit_time": "2020-09-11 12:10:06",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 0.0,
+      "course_id": "C_676937",
+      "content": "派生类初始化列表中，可以使用“基类名(派生类对象)”这种形式调用基类复制构造函数，完成对派生类中基类定义成员的初始化构造。",
+      "concepts": [
+        "调用基类的构造函数",
+        "继承与派生"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89846",
+      "log_id": "11810580_89846",
+      "is_correct": 1,
+      "submit_time": "2020-09-11 12:11:09",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 1.0,
+      "course_id": "C_676937",
+      "content": "派生类的析构函数中不需要显式的调用基类的析构函数，基类的析构函数将在派生类析构函数执行完后执行。",
+      "concepts": [
+        "析构函数",
+        "继承与派生"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89847",
+      "log_id": "11810580_89847",
+      "is_correct": 1,
+      "submit_time": "2020-09-11 12:08:36",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 1.0,
+      "course_id": "C_676937",
+      "content": "下列说法正确的是",
+      "concepts": [
+        "派生类构造函数",
+        "基类构造函数",
+        "继承与派生"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89848",
+      "log_id": "11810580_89848",
+      "is_correct": 0,
+      "submit_time": "2020-09-11 12:08:47",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 0.0,
+      "course_id": "C_676937",
+      "content": "对初始化列表中的成员进行初始化时，将按照他们在初始化列表中的顺序进行，而并非被继承时从左向右声明的顺序。",
+      "concepts": [
+        "初始化列表",
+        "继承与派生"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89849",
+      "log_id": "11810580_89849",
+      "is_correct": 1,
+      "submit_time": "2020-09-11 15:23:16",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 1.0,
+      "course_id": "C_676937",
+      "content": "下列关于虚基类的描述中,错误的是",
+      "concepts": [
+        "虚基类",
+        "继承与派生"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89850",
+      "log_id": "11810580_89850",
+      "is_correct": 0,
+      "submit_time": "2020-09-11 15:25:35",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 0.0,
+      "course_id": "C_676937",
+      "content": "对于视频中的代码,将 Derived 的构造函数改为 Derived(int var):Base0(var-1),Base1(var),Base2(var+1){}定义 Derived d(1)，则 d.var0 的值为：",
+      "concepts": [
+        "派生类的构造函数",
+        "继承与派生"
+      ],
+      "cognitive_dimension": 3
+    },
+    {
+      "problem_id": "Pm_89852",
+      "log_id": "11810580_89852",
+      "is_correct": 0,
+      "submit_time": "2020-09-12 20:40:58",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 0.0,
+      "course_id": "C_676937",
+      "content": "下列关于运算符重载的说法中,错误的是",
+      "concepts": [
+        "多态性",
+        "运算符重载"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89853",
+      "log_id": "11810580_89853",
+      "is_correct": 0,
+      "submit_time": "2020-09-13 11:46:52",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 0.0,
+      "course_id": "C_676937",
+      "content": "若需要为xv类重载乘法运算符,运算结果为xv类型,在将其声明为类的成员函数时,下列原型声明正确的是",
+      "concepts": [
+        "多态性",
+        "函数原型声明"
+      ],
+      "cognitive_dimension": 3
+    },
+    {
+      "problem_id": "Pm_89854",
+      "log_id": "11810580_89854",
+      "is_correct": 0,
+      "submit_time": "2020-09-13 11:47:15",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 0.0,
+      "course_id": "C_676937",
+      "content": "已知表达式++a中的”++”是作为成员函数重载的运算符,则与++a等效的运算 符函数调用形式为",
+      "concepts": [
+        "运算符函数",
+        "多态性"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89855",
+      "log_id": "11810580_89855",
+      "is_correct": 0,
+      "submit_time": "2020-09-13 11:47:36",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 0.0,
+      "course_id": "C_676937",
+      "content": "将运算符重载为类成员函数时,其参数表中没有参数,说明该运算符是",
+      "concepts": [
+        "成员函数",
+        "多态性",
+        "运算符重载"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89856",
+      "log_id": "11810580_89856",
+      "is_correct": 1,
+      "submit_time": "2020-09-13 11:48:15",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 1.0,
+      "course_id": "C_676937",
+      "content": "将运算符“+”重载为非成员函数,下列原型声明中,错误的是",
+      "concepts": [
+        "非成员函数",
+        "多态性"
+      ],
+      "cognitive_dimension": 5
+    },
+    {
+      "problem_id": "Pm_89857",
+      "log_id": "11810580_89857",
+      "is_correct": 0,
+      "submit_time": "2020-09-13 11:52:46",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 0.0,
+      "course_id": "C_676937",
+      "content": "class Animal  {public: virtual  void  Name()=0; }; class Koala  :  public Animal  {public:  void  Name(){／*函数体略*／} };关于上述类定义,下列描述中错误的是",
+      "concepts": [
+        "派生类",
+        "虚函数",
+        "纯虚函数",
+        "多态性"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89858",
+      "log_id": "11810580_89858",
+      "is_correct": 0,
+      "submit_time": "2020-09-13 11:54:18",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 0.0,
+      "course_id": "C_676937",
+      "content": "上述程序的输出结果是：",
+      "concepts": [
+        "多态性",
+        "输出显示"
+      ],
+      "cognitive_dimension": 3
+    },
+    {
+      "problem_id": "Pm_89859",
+      "log_id": "11810580_89859",
+      "is_correct": 0,
+      "submit_time": "2020-09-13 11:56:22",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 0.0,
+      "course_id": "C_676937",
+      "content": "sizeof是C++中的一个操作符，作用是返回一个对象或者类型所占的内存字节数，则在64位机器上，sizeof(A)为：",
+      "concepts": [
+        "操作符",
+        "多态性"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89861",
+      "log_id": "11810580_89861",
+      "is_correct": 1,
+      "submit_time": "2020-09-13 15:41:21",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": 1.0,
+      "course_id": "C_676937",
+      "content": "在Visual Stuidio和C++11标准中，可以将override与final用作变量名和函数名，它们不是语言本身的关键字，但不建议这样使用。",
+      "concepts": [
+        "计算机科学与技术",
+        "函数名",
+        "多态性",
+        "变量名"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89862",
+      "log_id": "11810580_89862",
+      "is_correct": 1,
+      "submit_time": "2020-09-20 09:24:38",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "关于函数模板，下列说法正确的是",
+      "concepts": [
+        "函数模板",
+        "模板与群体数据"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89863",
+      "log_id": "11810580_89863",
+      "is_correct": 1,
+      "submit_time": "2020-09-20 09:24:46",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "类模板是类声明的一种模式，它使得类中得某些数据成员、某些成员函数的参数、某些成员函数的返回值，能取",
+      "concepts": [
+        "返回值",
+        "成员函数",
+        "模板与群体数据"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89864",
+      "log_id": "11810580_89864",
+      "is_correct": 1,
+      "submit_time": "2020-09-20 09:31:10",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "下列数据结构中,属于非线性结构的是",
+      "concepts": [
+        "非线性群体",
+        "二叉树",
+        "模板与群体数据"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89865",
+      "log_id": "11810580_89865",
+      "is_correct": 0,
+      "submit_time": "2020-09-23 20:35:01",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "下列关于线性链表的叙述中,正确的是",
+      "concepts": [
+        "线性链表",
+        "模板与群体数据"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89866",
+      "log_id": "11810580_89866",
+      "is_correct": 1,
+      "submit_time": "2020-09-23 20:35:30",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "下列叙述中正确的是:",
+      "concepts": [
+        "链式存储",
+        "顺序存储",
+        "模板与群体数据"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89867",
+      "log_id": "11810580_89867",
+      "is_correct": 0,
+      "submit_time": "2020-09-23 20:45:02",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "多项选择题对于所述循环队列的实现中，如果不使用count变量标定当前元素个数，以下说法正确的是：（附加条件）trade-off: 假定一个规模为SIZE的数组只能最多存放SIZE-1个元素，仍保持队空条件为front == rear",
+      "concepts": [
+        "遍历",
+        "模板与群体数据"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89868",
+      "log_id": "11810580_89868",
+      "is_correct": 1,
+      "submit_time": "2020-09-24 20:00:38",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "判断:排序问题中,各个数据元素中的所有关键字都要各不相同,才能得到有意义的排序结果.",
+      "concepts": [
+        "排序过程",
+        "模板与群体数据"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89869",
+      "log_id": "11810580_89869",
+      "is_correct": 0,
+      "submit_time": "2020-09-24 20:00:47",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "插入排序的平均时间复杂度为？",
+      "concepts": [
+        "插入排序",
+        "模板与群体数据"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89870",
+      "log_id": "11810580_89870",
+      "is_correct": 0,
+      "submit_time": "2020-09-24 20:00:55",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "下列排序方法中,最坏情况下比较次数最少的是",
+      "concepts": [
+        "堆排序",
+        "模板与群体数据"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89871",
+      "log_id": "11810580_89871",
+      "is_correct": 1,
+      "submit_time": "2020-09-25 08:44:25",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "定义 const int b[3] ={9,2,3};调用insertionSort函数， insertionSort(b,3),可以执行成功。",
+      "concepts": [
+        "泛型程序设计",
+        "调用函数"
+      ],
+      "cognitive_dimension": 3
+    },
+    {
+      "problem_id": "Pm_89872",
+      "log_id": "11810580_89872",
+      "is_correct": 1,
+      "submit_time": "2020-09-25 08:30:28",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "以下属于顺序容器模板的有(多选题):",
+      "concepts": [
+        "泛型程序设计",
+        "顺序容器模板"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89873",
+      "log_id": "11810580_89873",
+      "is_correct": 1,
+      "submit_time": "2020-09-25 09:41:51",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "下列关于迭代器，说法正确的是",
+      "concepts": [
+        "泛型程序设计",
+        "迭代器"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89874",
+      "log_id": "11810580_89874",
+      "is_correct": 1,
+      "submit_time": "2020-09-25 09:45:27",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "按照容器中元素的组织方式，容器可分为",
+      "concepts": [
+        "泛型程序设计",
+        "关联容器",
+        "顺序容器"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89875",
+      "log_id": "11810580_89875",
+      "is_correct": 1,
+      "submit_time": "2020-09-25 09:45:31",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "按照与容器所关联的迭代器类型，容器可分为",
+      "concepts": [
+        "泛型程序设计",
+        "随机访问容器",
+        "可逆容器"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89876",
+      "log_id": "11810580_89876",
+      "is_correct": 0,
+      "submit_time": "2020-09-25 10:24:19",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "判断：对于vector＜int＞ s; 在s.clear(); s.reserve(10);后 可以使用s[1] = 3;对其元素进行赋值。",
+      "concepts": [
+        "泛型程序设计",
+        "赋值"
+      ],
+      "cognitive_dimension": 3
+    },
+    {
+      "problem_id": "Pm_89877",
+      "log_id": "11810580_89877",
+      "is_correct": 1,
+      "submit_time": "2020-09-25 10:26:17",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "对于queue＜int＞ q; 在q.push(10); 后，以下能正确返回TRUE的是：（多选题）",
+      "concepts": [
+        "泛型程序设计",
+        "返回值"
+      ],
+      "cognitive_dimension": 3
+    },
+    {
+      "problem_id": "Pm_89878",
+      "log_id": "11810580_89878",
+      "is_correct": 1,
+      "submit_time": "2020-09-25 10:24:08",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "以下属于STL的顺序容器的是",
+      "concepts": [
+        "泛型程序设计",
+        "顺序容器"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89879",
+      "log_id": "11810580_89879",
+      "is_correct": 0,
+      "submit_time": "2020-09-25 19:46:18",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "以下对于map的使用中，可以正确输出15的是：A.map&lt;int, int&gt; maps;maps.insert(10, 15);cout &lt;&lt; maps.find(10)-&gt;second &lt;&lt; endl;B.map&lt;int, int&gt; maps;maps.insert(pair&lt;int, int&gt; (10, 15));cout &lt;&lt; maps.find(10)-&gt;second &lt;&lt; endl;C.map&lt;int, int&gt; maps;maps.insert(pair (10, 15));cout &lt;&lt; maps.find(10)-&gt;second &lt;&lt; endl;",
+      "concepts": [
+        "泛型程序设计",
+        "函数模板"
+      ],
+      "cognitive_dimension": 3
+    },
+    {
+      "problem_id": "Pm_89880",
+      "log_id": "11810580_89880",
+      "is_correct": 0,
+      "submit_time": "2020-09-25 19:46:34",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "set::insert(const value_type＆val); 函数的返回值类型是什么?",
+      "concepts": [
+        "泛型程序设计",
+        "返回值"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89881",
+      "log_id": "11810580_89881",
+      "is_correct": 0,
+      "submit_time": "2020-09-25 19:46:41",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "可以被视为只有关键字而没有相关的映射值的map的容器是（）。",
+      "concepts": [
+        "泛型程序设计",
+        "映射值"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89882",
+      "log_id": "11810580_89882",
+      "is_correct": 1,
+      "submit_time": "2020-09-25 19:46:46",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "映射 map、multimap 和集合 set、multiset属于（）。",
+      "concepts": [
+        "泛型程序设计",
+        "关联容器"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89883",
+      "log_id": "11810580_89883",
+      "is_correct": 1,
+      "submit_time": "2020-09-27 16:37:06",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "在iostream中，以下说法错误的是：",
+      "concepts": [
+        "流类库",
+        "输入/输出"
+      ],
+      "cognitive_dimension": 1
+    },
+    {
+      "problem_id": "Pm_89887",
+      "log_id": "11810580_89887",
+      "is_correct": 0,
+      "submit_time": "2020-09-28 17:16:27",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "最适合用于文本模式输入的输入流是",
+      "concepts": [
+        "流类库",
+        "输入流",
+        "文本模式"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89888",
+      "log_id": "11810580_89888",
+      "is_correct": 1,
+      "submit_time": "2020-09-28 17:16:40",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "适合磁盘文件输入的输入流是",
+      "concepts": [
+        "流类库",
+        "磁盘文件",
+        "输入流"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89889",
+      "log_id": "11810580_89889",
+      "is_correct": 1,
+      "submit_time": "2020-09-28 17:16:46",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "适合从内存中的字符串中输入信息的流是",
+      "concepts": [
+        "流类库",
+        "字符串输出",
+        "输入流"
+      ],
+      "cognitive_dimension": 2
+    },
+    {
+      "problem_id": "Pm_89891",
+      "log_id": "11810580_89891",
+      "is_correct": 1,
+      "submit_time": "2020-09-28 17:17:28",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "执行下列语句后，a和b的值变为istringstream istr(\"5 1.2\");int a;float b;istr &gt;&gt; a &gt;&gt; b;",
+      "concepts": [
+        "流类库",
+        "输出流"
+      ],
+      "cognitive_dimension": 3
+    },
+    {
+      "problem_id": "Pm_89893",
+      "log_id": "11810580_89893",
+      "is_correct": 1,
+      "submit_time": "2020-09-28 17:30:40",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "对于视频中的题目,在catch 是做如下修改,try{cout&lt;&lt;&quot;5/2=&quot;&lt;&lt;divide(5,2)&lt;&lt;endl;cout&lt;&lt;&quot;8/0=&quot;&lt;&lt;divide(8,0)&lt;&lt;endl;cout&lt;&lt;&quot;7/1=&quot;&lt;&lt;divide(7,1)&lt;&lt;endl;}catch(floate){cout&lt;&lt;e&lt;&lt;&quot;isdividedbyzero!&quot;&lt;&lt;endl;}程序是否能正常运行",
+      "concepts": [
+        "异常处理",
+        "异常处理机制"
+      ],
+      "cognitive_dimension": 4
+    },
+    {
+      "problem_id": "Pm_89894",
+      "log_id": "11810580_89894",
+      "is_correct": 0,
+      "submit_time": "2020-09-28 17:37:43",
+      "skill_id": "C_676937",
+      "attempts": 1,
+      "score": null,
+      "course_id": "C_676937",
+      "content": "try块中子函数若抛出异常，则处理异常与局部对象析构的先后顺序是：",
+      "concepts": [
+        "异常处理",
+        "局部对象析构"
+      ],
+      "cognitive_dimension": 2
+    }
+  ]
+}
